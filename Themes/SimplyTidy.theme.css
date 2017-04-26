@@ -1,5 +1,5 @@
-//META{"name":"SimplyTidy","description":"Hiding away unneeded panels","author":"MoreThanTom","version":"0.1.0"}*//{}
-
+//META{"name":"SimplyTidy","description":"Cleanup while staying in the base discord theme","author":"MoreThanTom","version":"0.1.0"}*//{}
+/* Guilds selection animation */
 .guilds-wrapper .guilds .guild:not(:first-child) {
     transition: height 0.5s;
 }
@@ -38,34 +38,7 @@
 .guilds-wrapper .guild:hover+.guild:not(.guilds-add):not(:first-child):before, .guilds-wrapper .guild:hover+.guild+.guild:not(.guilds-add):not(:first-child):before {
     display: none!important;
 }
-
-/*.guilds-wrapper .guilds .guild.selected:before {
-    margin-top: -10px;
-}
-.guilds-wrapper .guilds .guild.selected {
-    z-index: 2;
-    transform: scale(1);
-}
-.guilds-wrapper .guilds .guild.unread:not(.selected)::before {
-    margin-top: 1px;
-    height: 15px;
-}
-.guilds-wrapper .guilds .guild:not(.guilds-add) {
-    height: 30px
-}
-.guilds-wrapper .guilds .guild:first-child {
-    height: 50px
-}
-.guilds-wrapper .guilds .guild:not(:first-child):not(.guilds-add):hover {
-    height: 30px;
-    transform: scale(1.2);
-    z-index: 3;
-}
-.guild-inner, .guild{
-border-radius:5px!important;
-}*/
-
-
+/*end*/
 /*hide server & channel bars*/
 .flex-vertical .guilds-wrapper {
     width: 10px !important;
@@ -92,8 +65,8 @@ border-radius:5px!important;
 .scroller.guild-channels:hover::-webkit-scrollbar {
 	display: flex !important;
 }
-
-
+/*end*/
+/*Shrink Channel Members*/
 .channel-members{
     transform:translate(0px);
     z-index:1;
@@ -107,7 +80,6 @@ border-radius:5px!important;
 .channel-members .member .member-username-inner{
     opacity:0;
     transition:all 100ms ease;
-    
 }
 .channel-members:hover .member .member-activity, .channel-members:hover .member .member-username-inner{
     opacity:1;
@@ -122,9 +94,38 @@ padding-left:15px;
 .member {
 padding-left:15px!important;
 }
-
-/**/
-
+/*end*/
+/* Alignment Fixes*/
 span.channel-name {
 	margin-left: 10px;
 }
+/*end*/
+/*Shrinking Search Bar*/
+.header-toolbar .search .search-bar { transition: 400ms ease; width: 30px; opacity: 1; }
+.header-toolbar .search:hover .search-bar { width: 170px; opacity: 1; }
+.header-toolbar .search.focused .search-bar { width: 170px; opacity: 1; }
+.header-toolbar .search .search-bar:focus { width: 170px; opacity: 1; }
+/*end*/
+/Search Results Overlay*/
+.search-results-wrap, .search-results-wrap{
+    width:0px;
+    min-width:0px;
+    overflow: visible;
+}
+.search-results-wrap .scroller-wrap {
+    transform:translate(-418px);
+    opacity:.85;
+	width: 418px;
+    background-color: #2e3136;
+}
+.search-results-wrap .search-header {
+    transform:translate(-418px);
+    opacity:.85;
+	width: 378px;
+}
+/*end*/
+/*Transparency layers*/
+.popout.popout-bottom.no-shadow.search-popout, .popout.popout-bottom-right.no-arrow.no-shadow {
+    opacity: 0.85;
+}
+/*end*/
