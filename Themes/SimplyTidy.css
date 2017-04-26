@@ -1,4 +1,3 @@
-//META{"name":"SimplyTidy","description":"Cleanup while staying in the base discord theme","author":"MoreThanTom","version":"0.1.0"}*//{}
 /* Guilds selection animation */
 .guilds-wrapper .guilds .guild:not(:first-child) {
     transition: height 0.5s;
