@@ -75,6 +75,7 @@
 .channel-members:hover{
     animation: member 300ms ease;
     transform:translate(-150px);
+    opacity:.7;
 }
 .channel-members .member .member-activity,
 .channel-members .member .member-username-inner{
@@ -114,18 +115,18 @@ padding-left:15px!important;
 }
 .search-results-wrap .scroller-wrap {
     transform:translate(-418px);
-    opacity:.85;
+    opacity:.7;
 	width: 418px;
     background-color: #2e3136;
 }
 .search-results-wrap .search-header {
     transform:translate(-418px);
-    opacity:.85;
+    opacity:.7;
 	width: 378px;
 }
 /*end*/
 /*Transparency layers*/
 .popout.popout-bottom.no-shadow.search-popout, .popout.popout-bottom-right.no-arrow.no-shadow {
-    opacity: 0.85;
+    opacity: 0.7;
 }
 /*end*/
