@@ -106,7 +106,7 @@ padding-left:15px!important;
 .header-toolbar .search.focused .search-bar { width: 170px; opacity: 1; }
 .header-toolbar .search .search-bar:focus { width: 170px; opacity: 1; }
 /*end*/
-/Search Results Overlay*/
+/*Search Results Overlay*/
 .search-results-wrap, .search-results-wrap{
     width:0px;
     min-width:0px;
