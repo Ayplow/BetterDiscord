@@ -96,7 +96,7 @@ padding-left:15px!important;
 }
 /*end*/
 /* Alignment Fixes*/
-span.channel-name {
+.chat>.title-wrap>.title .channel-name {
 	margin-left: 10px;
 }
 /*end*/
