@@ -9,6 +9,9 @@
 .guilds-wrapper .guilds .guild.selected:before {
     margin-top: -5px;
 }
+.guilds-wrapper .guilds .guild.selected {
+    z-index: 5;
+}
 .guilds-wrapper .guilds .guild.unread:not(.selected)::before {
     margin-top: 10px;
 }
@@ -39,21 +42,17 @@
 /*.guilds-wrapper .guilds .guild.selected:before {
     margin-top: -10px;
 }
-
 .guilds-wrapper .guilds .guild.selected {
     z-index: 2;
     transform: scale(1);
 }
-
 .guilds-wrapper .guilds .guild.unread:not(.selected)::before {
     margin-top: 1px;
     height: 15px;
 }
-
 .guilds-wrapper .guilds .guild:not(.guilds-add) {
     height: 30px
 }
-
 .guilds-wrapper .guilds .guild:first-child {
     height: 50px
 }
@@ -122,4 +121,10 @@ padding-left:15px;
 }
 .member {
 padding-left:15px!important;
+}
+
+/**/
+
+span.channel-name {
+	margin-left: 10px;
 }
