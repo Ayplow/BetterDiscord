@@ -10,7 +10,7 @@
     margin-top: -5px;
 }
 .guilds-wrapper .guilds .guild.unread:not(.selected)::before {
-    margin-top: 1px;
+    margin-top: 10px;
 }
 .guilds-wrapper .guilds .guild.unread:hover:not(.selected)::before {
     margin-top: -6px;
