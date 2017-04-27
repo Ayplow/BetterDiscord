@@ -14,11 +14,11 @@ How to install:
 <ol>5. Go back to Settings -> BetterDiscord -> Themes</ol>
 <ol>6. Check the box in your Theme</ol>
 
-Plugins: https://github.com/HansAnonymous/BD-Themes-and-Plugins/tree/master/Plugins
+Plugins: https://github.com/TomSputz/BetterDiscord/tree/master/Themes/SimplyTidy
 
 <h2>HideServer</h2><br>
 
-<font size="25"><b><DIV ALIGN=LEFT><a href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/blob/master/Plugins/HideServers.plugin.js">HideServer</a></div></b></font>
-<b>Description:</b><i> A plugin to hide multiple servers.</i><br>
-<b>Status:</b> <i>Officially released.</i> <b>If any bugs are found, PLEASE contact me on Discord at HansAnonymous#8784</b> Will be updated to work with latest Discord/BetterDiscord updates.<br>
+<font size="25"><b><DIV ALIGN=LEFT><a href="https://github.com/TomSputz/BetterDiscord/blob/master/Themes/SimplyTidy/SimplyTidy.theme.css">SimplyTidy</a></div></b></font>
+<b>Description:</b><i> A theme to keep away clutter while staying in Discord's style and color.</i><br>
+<b>Status:</b> <i>In development.</i> <b>If any bugs are found, PLEASE contact me on Discord at HansAnonymous#8784</b> Will be updated to work with latest Discord/BetterDiscord updates.<br>
 <b>How to use:</b> <i>Once installed, enter the number of servers to hide (more instructions in the settings) and click save!</i>
