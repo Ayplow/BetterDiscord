@@ -23,7 +23,7 @@ Plugins: https://github.com/TomSputz/BetterDiscord/tree/master/Themes/SimplyTidy
 <b>Status:</b> <i>In development.</i> I am very much a perfectionist, and would love any suggestions at MoreThanTom#0828, I will try to keep it updated to work with latest Discord/BetterDiscord updates.<br>
 <b>What it does:</b>
 <p>So far, this theme shrinks the guilds, channels, members and search results off the screen when not in use, adds transparency layers to a few panels including Mentions, and the search Bar. There are also a couple more QoL tweaks here and there. I have been careful to make sure all the hitboxes are exact, and I havent left any graphical glitches, However, if you do find anything, please tell me so that I can fix it.</p>
-<img src="/../Screenshots/Themes/SimplyTidy/GuildReel.gif" width="34px" height="338px" display="in-line" title="Rolling style expand"/>
-<img src="/../Screenshots/Themes/SimplyTidy/ExpandChannels.gif" width="100px" height="338px" display="in-line" title="Expanable Channels and Servers"/>
-<img src="/../Screenshots/Themes/SimplyTidy/ExpandMembers.gif" width="95px" height="338px" display="in-line" title="Expandable Members panel"/>
-<img src="/../Screenshots/Themes/SimplyTidy/TransparentMenus.gif" width="350px" height="338px" display="in-line" title="Transpareny layers on menus"/>
+<img src="/../Screenshots/Themes/SimplyTidy/GuildReel.gif" width="68px" height="676px" display="flex" title="Rolling style expand"/>
+<img src="/../Screenshots/Themes/SimplyTidy/ExpandChannels.gif" width="200px" height="676px" display="flex" title="Expanable Channels and Servers"/>
+<img src="/../Screenshots/Themes/SimplyTidy/ExpandMembers.gif" width="190px" height="676px" display="flex" title="Expandable Members panel"/>
+<img src="/../Screenshots/Themes/SimplyTidy/TransparentMenus.gif" width="350px" height="338px" display="flex" title="Transpareny layers on menus"/>
