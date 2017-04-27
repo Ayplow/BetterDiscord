@@ -2,7 +2,7 @@
 .guilds-wrapper .guilds .guild:not(:first-child) {
     transition: height 0.5s;
 }
-.guilds-wrapper .guilds .guild:not(.guilds-add):not(:first-child) {
+.guilds-wrapper .guilds .guild:not(.guilds-add):not(:first-child):not(.dms) {
     height: 20px;
 }
 .guilds-wrapper .guilds .guild.selected:before {
@@ -17,24 +17,24 @@
 .guilds-wrapper .guilds .guild.unread:hover:not(.selected)::before {
     margin-top: -6px;
 }
-.guilds-wrapper .guild:not(.guilds-add):not(:first-child):hover {
+.guilds-wrapper .guild:not(.guilds-add):not(:first-child):not(.dms):hover {
     height: 40px!important;
     padding-top: 10px;
     transform: scale(1.2);
     z-index:5
 }
-.guilds-wrapper .guild:hover+.guild:not(.guilds-add):not(:first-child) {
+.guilds-wrapper .guild:hover+.guild:not(.guilds-add):not(:first-child):not(.dms) {
     height: 40px!important;
     padding-top: 0px;
     transform: scale(1.1);
     z-index:4
 }
-.guilds-wrapper .guild:hover+.guild+.guild:not(.guilds-add):not(:first-child) {
+.guilds-wrapper .guild:hover+.guild+.guild:not(.guilds-add):not(:first-child):not(.dms) {
     height: 40px!important;
     padding-top: -10px;
     z-index:3
 }
-.guilds-wrapper .guild:hover+.guild:not(.guilds-add):not(:first-child):before, .guilds-wrapper .guild:hover+.guild+.guild:not(.guilds-add):not(:first-child):before {
+.guilds-wrapper .guild:hover+.guild:not(.guilds-add):not(:first-child):not(.dms):before, .guilds-wrapper .guild:hover+.guild+.guild:not(.guilds-add):not(:first-child):not(.dms):before {
     display: none!important;
 }
 /*end*/
