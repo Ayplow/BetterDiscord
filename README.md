@@ -20,5 +20,7 @@ Plugins: https://github.com/TomSputz/BetterDiscord/tree/master/Themes/SimplyTidy
 
 <font size="25"><b><DIV ALIGN=LEFT><a href="https://github.com/TomSputz/BetterDiscord/blob/master/Themes/SimplyTidy/SimplyTidy.theme.css">SimplyTidy</a></div></b></font>
 <b>Description:</b><i> A theme to keep away clutter while staying in Discord's style and color.</i><br>
-<b>Status:</b> <i>In development.</i> <b>I am very m uch a perfectionint, and would love any suggestions at MoreThanTom#0828</b> I will try to keep it updated to work with latest Discord/BetterDiscord updates.<br>
-<b>What it does:</b> <p>So far, this theme shrinks the guilds, channels, members and search results off the screen when not in use, adds transparency layers to a few panels including Mentions, and the search Bar. There are also a couple more QoL tweaks here and there. Like I said, I am a Perfectionist. I have been careful to make sure all the hitboxes are exact, and there arent any graphical glitches, However, if you do find anything, please tell me so that I can fix it.</p>
+<b>Status:</b> <i>In development.</i> I am very much a perfectionist, and would love any suggestions at MoreThanTom#0828, I will try to keep it updated to work with latest Discord/BetterDiscord updates.<br>
+<b>What it does:</b>
+<p>So far, this theme shrinks the guilds, channels, members and search results off the screen when not in use, adds transparency layers to a few panels including Mentions, and the search Bar. There are also a couple more QoL tweaks here and there. I have been careful to make sure all the hitboxes are exact, and I havent left any graphical glitches, However, if you do find anything, please tell me so that I can fix it.</p>
+<img src="/../Screenshots/Themes/SimplyTidy/GuildReel.gif" width="34px" height="338px" display="in-line"/>
