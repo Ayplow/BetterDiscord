@@ -73,8 +73,11 @@
 }
 .channel-members:hover{
     animation: member 300ms ease;
-    transform:translate(-210px);
+    transform:translate(-230px);
     opacity:.7;
+}
+.channel-members:hover>*{
+    opacity:1;
 }
 .channel-members .member .member-activity,
 .channel-members .member .member-username-inner{
@@ -113,20 +116,23 @@ padding-left:15px!important;
 /*end*/
 /*Search Results Overlay*/
 .search-results-wrap {
+    transition:all 300ms ease;
+    width:60px;
+    min-width:60px;
+    overflow: visible;
+}
+.search-results-wrap:hover {
     width:0px;
     min-width:0px;
-    overflow: visible;
 }
 .search-results-wrap .scroller-wrap {
     transition:all 300ms ease;
-    transform:translate(-118px);
     opacity:.7;
 	width: 418px;
     background-color: #2e3136;
 }
 .search-results-wrap .search-header {
     transition:all 300ms ease;
-    transform:translate(-118px);
     opacity:.7;
 	width: 378px;
 }
