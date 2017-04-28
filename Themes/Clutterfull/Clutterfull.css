@@ -38,3 +38,16 @@
     display: none!important;
 }
 /*end*/
+.chat .new-messages-bar button:first-child {
+flex: 0 1 auto;
+    position: absolute;
+}
+.chat .new-messages-bar button:last-child {
+	flex: 1;
+    right: 0px;
+    text-align:center;
+}
+.chat .new-messages-bar {
+	left: 0px;
+    right:0px;
+}
